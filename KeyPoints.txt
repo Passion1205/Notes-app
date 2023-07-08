@@ -1,0 +1,32 @@
+Notes app explanation
+
+database used - ROOM database (An abstraction layer over SQLite. Uses database classes to hold the database and be the main access point for the persisted data.)
+
+model - model class for notes
+dao -  a pattern that provides an abstract interface to some type of database or other persistence mechanism
+
+allowMainThreadQueries() allows database queries to be made from the main thread. Room does not permit this by default.
+
+fallBackToDestructiveMigration - When the database version on the device does not match the latest schema version, Room runs necessary Migrations on the database.
+
+getInstance() - returns the database' s current instance 
+
+recyclerview - viewing a list of items
+
+RecyclerView makes it easy to efficiently display large sets of data.
+
+LayoutInflater - The LayoutInflater class is used to instantiate the contents of layout XML files into their corresponding View objects.
+
+inflate(int resource, ViewGroup root)
+Inflate a new view hierarchy from the specified xml resource.
+
+for adding request code= 101, and for editing request code= 102
+
+Styles and themes on Android let you separate the details of your app design from the UI structure and behavior, similar to stylesheets in web design.
+
+This manifest file will contain information about our application such as android version, access permissions, metadata, etc. of our application and its components. The manifest file will act as an intermediate between android OS and our application.
+
+attr/actionBarSize - default height of action bar
+
+Java SimpleDateFormat
+The java.text.SimpleDateFormat class provides methods to format and parse date and time in java. The SimpleDateFormat is a concrete class for formatting and parsing date which inherits java.text.DateFormat class.
